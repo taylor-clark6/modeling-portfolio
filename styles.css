@@ -73,6 +73,27 @@ button {
   cursor: pointer;
   border-radius: 4px;
 }
+
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 14px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+#backToTop:hover {
+  opacity: 1;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
