@@ -81,6 +81,7 @@ footer {
 }
 
 #backToTop {
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -91,9 +92,14 @@ footer {
   border-radius: 4px;
   cursor: pointer;
   font-family: 'Playfair Display', serif;
-  opacity: 0.7;
+  opacity: 0;
   transition: opacity 0.3s ease;
   z-index: 1000;
+}
+
+#backToTop.show {
+  display: block;
+  opacity: 0.7;
 }
 
 #backToTop:hover {
